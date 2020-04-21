@@ -24,12 +24,6 @@ Vue.use(zrSelectTree)
 ;<template>
 	<zr-select-tree></zr-select-tree>
 </template>
-import { zrSelectTree } from '@com'
-export default {
-	components: {
-		zrSelectTree,
-	},
-}
 ```
 
 ## 参数
