@@ -1,0 +1,34 @@
+{
+  "name": "zr-select-tree",
+  "version": "0.1.0",
+  "description": "基于vue,elementui二次封装的简单的下拉选择树",
+  "private": false,
+  "main": "lib/zr-select-tree.common.js",
+  "author": "zjhr",
+  "license": "ISC",
+  "keyword": [
+    "vue",
+    "elemet-ui",
+    "element",
+    "vuecli3",
+    "下拉选择树",
+    "选择框"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name zr-select-tree --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "element-ui": "^2.13.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
