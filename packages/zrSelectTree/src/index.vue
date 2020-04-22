@@ -183,6 +183,9 @@ export default {
 		},
 		getNodeDataFun () { // 获取选择节点数据
 			return this.radio ? this.$refs.tree.getCurrentNode() : this.$refs.tree.getCheckedNodes()
+		},
+		toggleChangePopover (toggle = false) {//触发式改变Popover
+			this.isShowSelect = toggle
 		}
 	},
 	watch: {

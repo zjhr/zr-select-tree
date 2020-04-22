@@ -1,6 +1,6 @@
 {
   "name": "zr-select-tree",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "基于vue,elementui二次封装的简单的下拉选择树",
   "private": false,
   "main": "lib/zr-select-tree.common.js",

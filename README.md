@@ -2,7 +2,7 @@
 
 ## 说明
 
-公共组件下拉选择 tree，基于 elementui 的[popover](https://element.eleme.cn/2.5/#/zh-CN/component/popover)和[tree](https://element.eleme.cn/2.5/#/zh-CN/component/tree)
+基于 vue,elementui 二次封装的简单的下拉选择树，基于 elementui 的[popover](https://element.eleme.cn/2.5/#/zh-CN/component/popover)和[tree](https://element.eleme.cn/2.5/#/zh-CN/component/tree)
 
 ## 快速上手
 
@@ -172,6 +172,13 @@ Vue.use(zrSelectTree)
   <tr>
     <td>工具类方法--》loadMultiples</td>
     <td>多选时候，回填数据，当data属性改变时候会触发，也可以手动触发</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>工具类方法--》toggleChangePopover</td>
+    <td>改变Popover</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
